@@ -30,5 +30,11 @@ The project will be available at 127.0.0.1:8000.
 
 Add example of curl in this file:
 
+urls
+
+https://github.com/jamilnoyda/posts-backend/
+
+
+
 
 could be done/improvements 
