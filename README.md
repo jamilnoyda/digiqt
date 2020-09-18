@@ -9,6 +9,7 @@
 3. for logging of aws lambda function we couold use CloudWatch and for django level we can use django's defautl django loging module.
 
 4. we can aslo use trasction sort of things then lambda get's fauilded in that case we can revert to their acutally stage.
+5. for testing api response time i have used dajngo tool bar and 
 
 
 
