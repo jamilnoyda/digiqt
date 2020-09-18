@@ -16,7 +16,7 @@
 
 
 
-![1](https://pin.it/6zce2Z7)
+![1](/django_tool_bar/Screenshot from 2020-09-18 23-27-07.png)
 
 
 
