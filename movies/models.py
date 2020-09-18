@@ -2,6 +2,7 @@ from django.db import models
 from django.urls import reverse
 from django.template.defaultfilters import slugify
 from django.utils.translation import gettext as _
+import datetime
 
 # Create your models here.
 
@@ -12,9 +13,10 @@ class Movie(models.Model):
     rating = models.FloatField()
     rank = models.IntegerField()
     year = models.IntegerField()
-    # release_date = models.DateTimeField(auto_now_add=True)
-    # duration = models.DateTimeField(auto_now=True, editable=False)
-    # description = models.CharField(max_length=200)
+    release_date = models.DateTimeField(auto_now_add=True)
+
+    duration = models.DurationField(default=datetime.timedelta(days=20, hours=10))
+    description = models.CharField(max_length=500, null=True)
 
     class Meta:
         ordering = ("-rating",)
