@@ -32,7 +32,7 @@ Add example of curl in this file:
 
 urls
 
-https://github.com/jamilnoyda/posts-backend/
+http://localhost:8000/movies/movies-api/?title=&year=2010
 
 
 
