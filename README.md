@@ -16,7 +16,11 @@
 
 
 
-![1](/django_tool_bar/Screenshot from 2020-09-18 23-27-07.png)
+![1](/django_tool_bar/cache_details.png)
+![2](/django_tool_bar/data_from_cache.png)
+
+![3](/django_tool_bar/sql_query_details_can_see_that_no_query_movie_list.png)
+
 
 
 
