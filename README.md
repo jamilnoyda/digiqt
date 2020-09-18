@@ -44,11 +44,24 @@ The project will be available at 127.0.0.1:8000.
 
 
 could be done/improvements 
-1. django logging modulde
-2. o-auth toolkit
-3. slug field for SEO purpose(not needed in apis)
-4. override djagno's default user module'
-5. deployment on heroku with CD 
+
+    1. django logging modulde
+    2. o-auth toolkit
+    3. slug field for SEO purpose(not needed in apis)
+    4. override djagno's default user module
+    5. deployment on heroku with CD 
+
+
+
+
+
+tools/technoliges  that have used
+
+    - django drf for api
+    - filter and search  drf filter
+    - for debug django tool bar
+    - redis for performance
+    - sqlite for database 
 
 
 
