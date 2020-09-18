@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS [movies_movie] (
-[Rank] INT NULL,
-[Title] VARCHAR NULL,
-[Year] VARCHAR NULL,
-[Rating] FLOAT NULL
+[id] INT NULL,
+[title] VARCHAR NULL,
+[year] VARCHAR NULL,
+[rating] FLOAT NULL
 );
 
 INSERT INTO movies_movie VALUES

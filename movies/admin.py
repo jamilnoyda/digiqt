@@ -8,5 +8,5 @@ from movies.models import Movie
 class MovieAdmin(admin.ModelAdmin):
 
     search_fields = ("title",)
-    list_display = ("id", "title", "release_date")
+    # list_display = ("id", "title", "release_date")
 

@@ -7,16 +7,15 @@ from django.utils.translation import gettext as _
 
 
 class Movie(models.Model):
-    
+
     title = models.CharField(max_length=200, db_index=True)
     rating = models.FloatField()
+    rank = models.IntegerField()
+    year = models.IntegerField()
+    # release_date = models.DateTimeField(auto_now_add=True)
+    # duration = models.DateTimeField(auto_now=True, editable=False)
+    # description = models.CharField(max_length=200)
 
-    release_date = models.DateTimeField(auto_now_add=True)
-    duration = models.DateTimeField(auto_now=True, editable=False)
-    description = models.CharField(max_length=200)
-
-
-    
     class Meta:
         ordering = ("-rating",)
         verbose_name = "Movie"
@@ -36,5 +35,4 @@ class Movie(models.Model):
     # def save(self, *args, **kwargs):
     #     self.slug = slugify(self.name)
     #     super(Category, self).save(*args, **kwargs)
-
 

@@ -21,7 +21,7 @@ class MovieViewSet(viewsets.ModelViewSet):
     API endpoint that allows users to be viewed or edited.
     """
 
-    queryset = Movie.objects.all().order_by("-rating")
+    queryset = Movie.objects.all()#.order_by("-rating")
     serializer_class = MovieSerializer
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ["name"]
