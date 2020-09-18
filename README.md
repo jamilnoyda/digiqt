@@ -48,3 +48,10 @@ http://localhost:8000/movies/movies-api/?title=&year=2010
 
 
 could be done/improvements 
+1. django logging modulde
+2. o-auth toolkit
+3. slug field for SEO purpose(not needed in apis)
+4. override djagno's default user module
+
+
+
