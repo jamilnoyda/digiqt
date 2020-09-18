@@ -1,2 +1,13 @@
 [
+    {
+        "model": "movies.movie",
+        "pk": 1,
+        "fields": {
+            "title": "tenet",
+            "rating": 9.1,
+            "release_date": "2020-09-18T14:38:35.400Z",
+            "duration": "2020-09-18T14:38:35.401Z",
+            "description": "tenet tenet"
+        }
+    }
 ]
