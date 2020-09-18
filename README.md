@@ -9,8 +9,14 @@
 3. for logging of aws lambda function we couold use CloudWatch and for django level we can use django's defautl django loging module.
 
 4. we can aslo use trasction sort of things then lambda get's fauilded in that case we can revert to their acutally stage.
+5. for testing api response time(profiling  ) i have used dajngo tool bar
+
+  
 
 
+
+
+![1](/django_tool_bar/Screenshot from 2020-09-18 23-27-07.png)
 
 
 
@@ -29,6 +35,12 @@ The project will be available at 127.0.0.1:8000.
 
 
 Add example of curl in this file:
+
+urls
+
+http://localhost:8000/movies/movies-api/?title=&year=2010
+
+
 
 
 could be done/improvements 
