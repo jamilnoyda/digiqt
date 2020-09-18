@@ -15,16 +15,21 @@ Including another URLconf
 """
 from django.contrib import admin
 
+import debug_toolbar
 from django.urls import include, path
-
+from django.conf import settings
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    
     path("movies/", include("movies.urls", namespace="movies")),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
     # path('users/', UserList.as_view()),
     # path('users/<pk>/', UserDetails.as_view()),
     # path('groups/', GroupList.as_view()),
 ]
+
+
+if settings.DEBUG:
+
+    urlpatterns = [path("__debug__/", include(debug_toolbar.urls)),] + urlpatterns
 
