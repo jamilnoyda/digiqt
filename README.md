@@ -5,7 +5,24 @@
 
 2. since our use-case can is sorting, searching and reading kind of stuff. i think probably go with NoSQL database like MongoDB however i'll be using sql database with indexing on fields like name, rating date, etc
 , however, I'll be using Redis databse for the cacheing
+$ heroku login
 
+Clone the repository
+
+Use Git to clone posts-backend-python's source code to your local machine.
+
+$ heroku git:clone -a posts-backend-python
+$ cd posts-backend-python
+
+Deploy your changes
+
+Make some changes to the code you just cloned and deploy them to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+Only for deploym
 3. for logging of aws lambda function we couold use CloudWatch and for django level we can use django's defautl django loging module.
 
 4. we can aslo use trasction sort of things then lambda get's fauilded in that case we can revert to their acutally stage.
@@ -51,7 +68,9 @@ could be done/improvements
 1. django logging modulde
 2. o-auth toolkit
 3. slug field for SEO purpose(not needed in apis)
-4. override djagno's default user module
+4. override djagno's default user module'
+5. deployment on heroku
+6. 
 
 
 
