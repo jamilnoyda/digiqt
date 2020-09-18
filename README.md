@@ -19,6 +19,11 @@
 
 
 
+djagno admin user name and pass and url
+username: jamil
+password: hellohello
+url: localhost:8000/admin
+
 
 used black linting
 used slug field for SEO purpose
@@ -34,11 +39,6 @@ The project will be available at 127.0.0.1:8000.
 
 
 
-Add example of curl in this file:
-
-urls
-
-http://localhost:8000/movies/movies-api/?title=&year=2010
 
 
 
@@ -48,8 +48,7 @@ could be done/improvements
 2. o-auth toolkit
 3. slug field for SEO purpose(not needed in apis)
 4. override djagno's default user module'
-5. deployment on heroku
-6. 
+5. deployment on heroku with CD 
 
 
 
