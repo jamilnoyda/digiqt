@@ -30,21 +30,21 @@ used VSCode for Coding
 
 The project will be available at 127.0.0.1:8000.
 
-    python 3.8
-    Django 3.x
+    python 3.8
+    Django 3.x
 
 could be done/improvements 
 
-    1. django logging module
-    2. o-auth toolkit
-    3. slug field for SEO purpose(not needed in APIs)
-    4. override djagno's default user module
-    5. deployment on heroku with CD
+    1. django logging module
+    2. o-auth toolkit
+    3. slug field for SEO purpose(not needed in APIs)
+    4. override djagno's default user module
+    5. deployment on heroku with CD
 
 tools/technologies  that have used
 
-    - Django drf for api
-    - filter and search  drf filter
-    - django tool bar for debugging
-    - Redis for performance
-    - SQLite for database
+    - Django drf for api
+    - filter and search  drf filter
+    - django tool bar for debugging
+    - Redis for performance
+    - SQLite for database
